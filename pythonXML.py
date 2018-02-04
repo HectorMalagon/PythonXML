@@ -41,6 +41,7 @@ while terminar != "n":
     
     latitud = doc.find(".//location/lat").text
     longitud = doc.find(".//location/lng").text
+    
 
     print "Nombre monumento:", monumento
     print "Latitud:", latitud
